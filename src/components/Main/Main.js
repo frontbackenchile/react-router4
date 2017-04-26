@@ -1,8 +1,9 @@
-// The Main component renders one of the three provided
-// Routes (provided that one matches). Both the /roster
-// and /schedule routes will match any pathname that starts
-// with /roster or /schedule. The / route will only match
-// when the pathname is exactly the string "/"
+// El componente Main renderizará una de las 3 rutas
+// entregadas (La que concuerde con su /ruta ). Las
+// rutas /roster y /schedule van a concordar con cualquier
+// pathname que empiece con /roster o /schedule. La ruta /
+// sólo va a concordar cuando el pathname sea exactamente
+// el string "/" (en este caso).
 import { Switch, Route } from 'react-router-dom'
 import React from "react";
 import Home from '../Home/Home'

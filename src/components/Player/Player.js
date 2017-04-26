@@ -1,6 +1,7 @@
-// The Player looks up the player using the number parsed from
-// the URL's pathname. If no player is found with the given
-// number, then a "player not found" message is displayed.
+// El componente Player nos muestra la información de un
+// Player usando el numero parseado del pathname de la URL.
+// Si no encuentra un player con ese número, entonces un
+// mensaje de "player not found" es mostrado.
 import React from "react";
 import { Link } from 'react-router-dom'
 import PlayerAPI from '../../utils/PlayerAPI'

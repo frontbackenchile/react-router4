@@ -1,5 +1,7 @@
-// The FullRoster iterates over all of the players and creates
-// a link to their profile page.
+// El componente FullRoster itera sobre la lista completa de
+// Players(de la API) y crea un enlace a su página de perfil.
+// Cada enlace lleva a una ruta del tipo /roster/:id,
+// lo que a su vez renderizará Player (ver Roster.js)
 import { Link } from 'react-router-dom'
 import React from "react";
 import PlayerAPI from '../../utils/PlayerAPI'

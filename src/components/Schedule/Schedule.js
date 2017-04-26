@@ -1,4 +1,5 @@
-// Another view.
+// Otra vista básica. En este casos renderizamos una lista
+// hardcodeada. Nada que decir.
 import React from "react";
 
 const Schedule = () => (

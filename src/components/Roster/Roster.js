@@ -1,5 +1,8 @@
-// The Roster component matches one of two different routes
-// depending on the full pathname
+// El componente Roster concordará con una de dos rutas
+// diferentes dependiendo del pathname completo:
+// Si es exactamente /roster, renderiza FullRoster.
+// Si es /roster/:number, renderizará el Player
+// que corresponda al ID que recibimos en el path.
 import React from "react";
 import { Switch, Route } from 'react-router-dom'
 import FullRoster from '../FullRoster/FullRoster'

@@ -1,5 +1,5 @@
-// The Header creates links that can be used to navigate
-// between routes.
+// El Header crea enlaces que pueden ser usados para navegar
+// entre rutas.
 import { Link } from 'react-router-dom'
 import React from "react";
 
