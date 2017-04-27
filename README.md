@@ -17,3 +17,7 @@
 - Leer //Comentarios del componente Player.js y PlayerAPI.js
 
 - Leer //Comentarios del componente Schedule.js
+
+### Para practicar:
+
+- [React Router, reacttraining.com](https://reacttraining.com/react-router/web/guides/quick-start)
